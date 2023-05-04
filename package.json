@@ -1,0 +1,23 @@
+{
+  "name": "github-dependency-tracker",
+  "version": "1.0.0",
+  "description": "Script to extract a nice dependency graph from github pull requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco6/github-dependency-tracker.git"
+  },
+  "author": "Marco Manino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco6/github-dependency-tracker/issues"
+  },
+  "homepage": "https://github.com/marco6/github-dependency-tracker#readme",
+  "dependencies": {
+    "octokit": "^2.0.14"
+  }
+}
